@@ -13,16 +13,16 @@ namespace ChangeString
             Console.Write("String: ");
             string palavra = Console.ReadLine();
             
-            Console.Write("\nCaráter: ");
+            Console.Write("Caráter: ");
             string letra_s = Console.ReadLine();
             char letra = char.Parse(letra_s);
 
-            Console.Write("\nSerá impresso: ");
+            Console.Write("Será impresso: ");
 
             foreach(char palavra_pequena in palavra){
                 if(palavra_pequena == letra)
                 {
-                    Console.Write(letra);
+                    Console.Write("X");
                 }
                 else{
                     Console.Write(palavra_pequena);
