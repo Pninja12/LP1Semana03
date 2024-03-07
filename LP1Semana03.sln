@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeString", "ChangeStrin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMult", "ArrayMult\ArrayMult.csproj", "{49CC2AEA-5613-4939-AC88-A60D81158645}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroPerks", "HeroPerks\HeroPerks.csproj", "{BFC3A751-A534-4E23-9E04-DEFE0EB90BA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{49CC2AEA-5613-4939-AC88-A60D81158645}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49CC2AEA-5613-4939-AC88-A60D81158645}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49CC2AEA-5613-4939-AC88-A60D81158645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC3A751-A534-4E23-9E04-DEFE0EB90BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC3A751-A534-4E23-9E04-DEFE0EB90BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC3A751-A534-4E23-9E04-DEFE0EB90BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC3A751-A534-4E23-9E04-DEFE0EB90BA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
