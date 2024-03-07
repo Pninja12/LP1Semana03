@@ -22,10 +22,32 @@ namespace HeroPerks
                 else{
                     Console.WriteLine("Unknown perk!");
                     broke = true;
+                    break;
                 }
 
             }
 
+            if (!broke)
+            {
+                if (perks == 0)
+                {
+                    Console.WriteLine("No perks at all!");
+                }
+                else
+                {
+                    Console.WriteLine(perks);
+                }
+                if ((perks & Perks.Stealth) == Perks.Stealth &&
+                (perks & Perks.DoubleJump) == Perks.DoubleJump)
+                {
+                    Console.WriteLine("Silent jumper!");
+                }
+                if ((perks & Perks.AutoHeal) != Perks.AutoHeal)
+                {
+                    Console.WriteLine("Not gonna make it!");
+                }
+            }
         }
     }
 }
+
