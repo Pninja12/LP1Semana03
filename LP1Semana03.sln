@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamousQuotes", "FamousQuote
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPS", "RPS\RPS.csproj", "{5AB4A361-318D-4BAD-B52A-0C43A8DE6C90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerPowers", "PlayerPowers\PlayerPowers.csproj", "{0B155D2A-7627-4FC0-989C-34E232145871}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{5AB4A361-318D-4BAD-B52A-0C43A8DE6C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AB4A361-318D-4BAD-B52A-0C43A8DE6C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AB4A361-318D-4BAD-B52A-0C43A8DE6C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B155D2A-7627-4FC0-989C-34E232145871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B155D2A-7627-4FC0-989C-34E232145871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B155D2A-7627-4FC0-989C-34E232145871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B155D2A-7627-4FC0-989C-34E232145871}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
