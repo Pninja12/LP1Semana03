@@ -7,7 +7,7 @@ namespace RPS
         private static void Main(string[] args)
         {
             int result = RockPaperScissors(args[0], args[1]);
-            switch (result)
+            switch (result) 
             {
                 case 0:
                     Console.WriteLine("It's a draw!");
@@ -21,25 +21,31 @@ namespace RPS
             }
         }
 
-        private static int RockPaperScissors(string player1, string player2)
+        private static int RockPaperScissors(string player1_s, string player2_s)
         {
-            int gamestate;
+            GameStatus status;
+
+            //com ajuda do copilot
+            GameItem player1 = (GameItem)Enum.Parse(typeof(GameItem),
+            player1_s);
+            GameItem player2 = (GameItem)Enum.Parse(typeof(GameItem),
+            player2_s);
+
             if (player1 == player2)
             {
-                gamestate = 0; // Draw
+                status = GameStatus.Draw; // Draw
             }
-            if (((player1 == "Rock") && (player2 == "Scissors")) ||
-                ((player1 == "Scissors") && (player2 == "Paper")) ||
-                ((player1 == "Paper") && (player2 == "Rock")))
+            else if (((int)player1 - (int)player2 == 1) ||
+                ((int)player1 - (int)player2 == -2))
             {
-                gamestate = 1; // Player 1 wins
+                status = GameStatus.Player1Wins; // Player 1 wins
             }
             else
             {
-                gamestate = 2; // Player 2 wins
+                status = GameStatus.Player2Wins; // Player 2 wins
             }
 
-            return gamestate;
+            return (int)status;
         }
     }
 }
